@@ -1,0 +1,698 @@
+<priorities>
+    <priority n='0' type='docdb' source='2002534532'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='1' type='epodoc' source='2002534532'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='2' type='docdb' source='2002534532'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">0001314</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>20000119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='3' type='epodoc' source='2002534532'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">WO2000US01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='4' type='original' source='2002534532'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">1999 234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='5' type='original' source='2002534532'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">2000/01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='6' type='docdb' source='5139609'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='7' type='epodoc' source='5139609'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='8' type='docdb' source='5139609'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">0001314</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>20000119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='9' type='epodoc' source='5139609'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">WO2000US01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='10' type='original' source='5139609'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">1999 234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='11' type='original' source='5139609'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">2000/001314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='12' type='docdb' source='6486148'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">92792601</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>20010810</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='13' type='epodoc' source='6486148'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US20010927926</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='14' type='docdb' source='6486148'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">3</idno>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='15' type='epodoc' source='6486148'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='16' type='docdb' source='6486148'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="3" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">9804489</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>19980306</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='17' type='epodoc' source='6486148'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="3" type="patent">
+            <monogr>
+                <idno type="docNumber">WO1998US04489</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='18' type='original' source='6486148'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">09/234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='19' type='original' source='6486148'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">PCT/US98/04489</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='20' type='docdb' source='2002019376'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">92792601</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>20010810</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='21' type='epodoc' source='2002019376'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US20010927926</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='22' type='docdb' source='2002019376'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">3</idno>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='23' type='epodoc' source='2002019376'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='24' type='docdb' source='2002019376'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="3" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">9804489</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>19980306</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='25' type='epodoc' source='2002019376'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="3" type="patent">
+            <monogr>
+                <idno type="docNumber">WO1998US04489</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='26' type='original' source='2002019376'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">09234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='27' type='original' source='2002019376'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">PCT/US98/04489</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='28' type='docdb' source='2360060'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='29' type='epodoc' source='2360060'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='30' type='docdb' source='2360060'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">0001314</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>20000119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='31' type='epodoc' source='2360060'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">WO2000US01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='32' type='original' source='2360060'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">09/234,008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='33' type='original' source='2360060'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">PCT/US00/01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='34' type='docdb' source='6350738'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='35' type='epodoc' source='6350738'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='36' type='docdb' source='6350738'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">9804489</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>19980306</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='37' type='epodoc' source='6350738'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">WO1998US04489</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='38' type='original' source='6350738'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">PCT/US98/04489</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='39' type='docdb' source='775828'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='40' type='epodoc' source='775828'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='41' type='docdb' source='775828'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">0001314</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>20000119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='42' type='epodoc' source='775828'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">WO2000US01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='43' type='original' source='775828'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">09/234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='44' type='original' source='775828'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">WO00/42058</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='45' type='docdb' source='2731900'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='46' type='epodoc' source='2731900'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='47' type='docdb' source='2731900'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">0001314</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>20000119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='48' type='epodoc' source='2731900'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">WO2000US01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='49' type='original' source='2731900'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">09234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='50' type='original' source='2731900'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">PCT/US00/01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='51' type='docdb' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">0001314</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>20000119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='52' type='epodoc' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">WO2000US01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='53' type='docdb' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='54' type='epodoc' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='55' type='original' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US0001314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='56' type='original' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='57' type='docdb' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">0001314</idno>
+                <imprint>
+                    <classCode scheme="kindCode">W</classCode>
+                    <date>20000119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">W</idno>
+            <idno type="priority-active-indicator">N</idno>
+        </biblStruct>
+    </priority>
+    <priority n='58' type='epodoc' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">WO2000US01314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='59' type='docdb' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="2" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='60' type='epodoc' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='61' type='original' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US0001314</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='62' type='original' source='1144432'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='63' type='docdb' source='0042058'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">1</idno>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='64' type='epodoc' source='0042058'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='65' type='original' source='0042058'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">09/234,008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='66' type='docdb' source='0042058'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="docdb" rend="1" type="patent">
+            <monogr>
+                <authority>
+                    <orgName type="national">US</orgName>
+                </authority>
+                <idno type="docNumber">23400899</idno>
+                <imprint>
+                    <classCode scheme="kindCode">A</classCode>
+                    <date>19990119</date>
+                </imprint>
+            </monogr>
+            <idno type="priority-linkage-type">1</idno>
+            <idno type="priority-active-indicator">Y</idno>
+        </biblStruct>
+    </priority>
+    <priority n='67' type='epodoc' source='0042058'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="epodoc" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">US19990234008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='68' type='original' source='0042058'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="1" type="patent">
+            <monogr>
+                <idno type="docNumber">09/234,008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+    <priority n='69' type='original' source='0042058'><?xml version="1.0" encoding="UTF-8"?>
+        <biblStruct status="application" subtype="original" rend="2" type="patent">
+            <monogr>
+                <idno type="docNumber">09/234,008</idno>
+            </monogr>
+        </biblStruct>
+    </priority>
+</priorities>

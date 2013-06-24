@@ -1,0 +1,109 @@
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiCorpus>
+        <TEI>
+            <teiHeader>
+                <fileDesc>
+                    <sourceDesc>
+
+                        <biblStruct type="patent" subtype="docdb" status="publication">
+                            <monogr>
+                                <authority>
+                                    <orgName type="national">JP</orgName>
+                                </authority>
+                                <idno type="docNumber">2002534532</idno>
+                                <imprint>
+                                    <classCode scheme="kindCode">A</classCode>
+                                    <date>20021015</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="patent" subtype="epodoc" status="publication">
+                            <monogr>
+                                <idno type="docNumber">JP2002534532</idno>
+                            </monogr>
+                        </biblStruct>
+
+
+                        <listBibl>
+
+                            <biblStruct type="patent" subtype="docdb" status="application" rend="1">
+                                <monogr>
+                                    <authority>
+                                        <orgName type="national">US</orgName>
+                                    </authority>
+                                    <idno type="docNumber">2340089911</idno>
+                                    <imprint>
+                                        <classCode scheme="kindCode">A</classCode>
+                                        <date>19990119</date>
+                                    </imprint>
+                                </monogr>
+                                <idno type="priority-active-indicator">Y</idno>
+                            </biblStruct>
+                            <biblStruct type="patent" subtype="docdb" status="application" rend="1">
+                                <monogr>
+                                    <authority>
+                                        <orgName type="national">US</orgName>
+                                    </authority>
+                                    <idno type="docNumber">23400899222</idno>
+                                    <imprint>
+                                        <classCode scheme="kindCode">A</classCode>
+                                        <date>19990119</date>
+                                    </imprint>
+                                </monogr>
+                                <idno type="priority-active-indicator">Y</idno>
+                            </biblStruct>
+
+
+                        </listBibl>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+        </TEI>
+        <TEI>
+            <teiHeader>
+                <fileDesc>
+                    <sourceDesc>
+                        <listBibl>
+
+                            <biblStruct type="patent" subtype="docdb" status="application" rend="1">
+                                <monogr>
+                                    <authority>
+                                        <orgName type="national">US</orgName>
+                                    </authority>
+                                    <idno type="docNumber">234008993333</idno>
+                                    <imprint>
+                                        <classCode scheme="kindCode">A</classCode>
+                                        <date>19990119</date>
+                                    </imprint>
+                                </monogr>
+                                <idno type="priority-active-indicator">Y</idno>
+                            </biblStruct>
+                            <biblStruct type="patent" subtype="docdb" status="application" rend="1">
+                                <monogr>
+                                    <authority>
+                                        <orgName type="national">US</orgName>
+                                    </authority>
+                                    <idno type="docNumber">2340089944444</idno>
+                                    <imprint>
+                                        <classCode scheme="kindCode">A</classCode>
+                                        <date>19990119</date>
+                                    </imprint>
+                                </monogr>
+                                <idno type="priority-active-indicator">Y</idno>
+                            </biblStruct>
+
+
+                        </listBibl>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+        </TEI>
+    </teiCorpus>
+
+</teiCorpus>
+
+
+
+
+
+
