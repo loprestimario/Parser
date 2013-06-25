@@ -1,6 +1,8 @@
 package groovy
 
-class Summary {
+import groovy.xml.XmlUtil
+
+class Output {
 
     private void WriteSummary(Nation n, ArrayList arrayList, countClaims, countTei, idFamily, nationPlus, count) {
         def fw = new FileWriter('src/main/resources/outputSummary.xml')
@@ -19,4 +21,23 @@ class Summary {
             numberPublication(count)
         }
     }
+
+    public void writePriorityClaims(Map claims) {
+        def fw = new FileWriter('src/main/resources/outputClaims1.xml')
+        def xml = new groovy.xml.MarkupBuilder(fw)
+        def count = 0
+
+        xml.priorities() {
+            for (name in claims.keySet()) {
+                def c = claims.get(name)
+                for (int i = 0; i < c.size(); i++) {
+                    xml.priority(n: count, type: c.get(i).@subtype, source: name) {
+                        mkp.yieldUnescaped XmlUtil.serialize(c.get(i))
+                    }
+                    count++
+                }
+            }
+        }
+    }
 }
+

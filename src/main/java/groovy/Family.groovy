@@ -4,31 +4,28 @@ import groovy.util.slurpersupport.GPathResult
 
 class Family {
 
-    public void extract(String body){
+    public void extract(String body) {
         def teiCorpus = new XmlSlurper().parseText(body)
-        def idFamily =teiCorpus.teiHeader.fileDesc.sourceDesc.bibl.idno
-        def count =0
-        def counts =0
-        def countTei=0
-        def countClaims=0
+        def idFamily = teiCorpus.teiHeader.fileDesc.sourceDesc.bibl.idno
         def listTei = teiCorpus.teiCorpus
-        def ArrayList arrayList= new ArrayList()
+        def ArrayList arrayList = new ArrayList()
         def nationPlus
 
         // publication
-        countPublication(listTei, arrayList, count)
-       // application
-        countApplication(teiCorpus, arrayList, countTei)
+        def count = countPublication(listTei, arrayList)
+        // application
+        def countTei = countApplication(teiCorpus, arrayList)
         // claims
-        countPriorityClaims(listTei, arrayList, countClaims)
-        Nation n= new Nation()
+        def countClaims = countPriorityClaims(listTei, arrayList)
+        Nation n = new Nation()
         nationPlus = n.getNationPlus(arrayList)
 
-        Summary summary= new Summary()
+        Output summary = new Output()
         summary.WriteSummary(n, arrayList, countClaims, countTei, idFamily, nationPlus, count)
     }
 
-    private void countPriorityClaims(listTei, arrayList, countClaims) {
+    private int countPriorityClaims(listTei, arrayList) {
+        def countClaims = 0
         listTei.TEI.each { tei ->
             def listClaims = tei.teiHeader.fileDesc.sourceDesc.listBibl.biblStruct
             listClaims.each { claim ->
@@ -38,9 +35,11 @@ class Family {
                 }
             }
         }
+        return countClaims++
     }
 
-    private void countApplication(GPathResult teiCorpus, arrayList, countTei) {
+    private int countApplication(GPathResult teiCorpus, arrayList) {
+        def countTei = 0
         def listP = teiCorpus.teiCorpus.teiHeader.fileDesc.sourceDesc.biblStruct
         listP.each { application ->
             if (application.@subtype == "docdb") {
@@ -48,9 +47,11 @@ class Family {
                 arrayList.add(application.monogr.authority.orgName)
             }
         }
+        return countTei++
     }
 
-    private void countPublication(listTei, arrayList, count) {
+    private int countPublication(listTei, arrayList) {
+        def count = 0;
         listTei.TEI.each { tei ->
             def listP = tei.teiHeader.fileDesc.sourceDesc.biblStruct
             listP.each { publication ->
@@ -60,7 +61,6 @@ class Family {
                 }
             }
         }
+        return count
     }
-
-
 }
