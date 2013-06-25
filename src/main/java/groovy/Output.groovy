@@ -4,7 +4,14 @@ import groovy.xml.XmlUtil
 
 class Output {
 
-    private void WriteSummary(Nation n, ArrayList arrayList, countClaims, countTei, idFamily, nationPlus, count) {
+    public void WriteSummary(ArrayList summary) {
+        Nation n = summary.getNation()
+        ArrayList arrayList = summary.getArray()
+        def countClaims = summary.getCountClaims()
+        def countTei = summary.getCountTei()
+        def idFamily = summary.getIdFamily()
+        def nationPlus = summary.getNationPlus()
+        def count = summary.getCount()
         def fw = new FileWriter('src/main/resources/outputSummary.xml')
         def xml = new groovy.xml.MarkupBuilder(fw)
 

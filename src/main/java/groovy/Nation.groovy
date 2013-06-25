@@ -9,9 +9,9 @@ class Nation {
         Map<String, Integer> nations
         def nationPlus
         int k
-        def comparator=0
+        def comparator = 0
 
-        ArrayList  arrayNation= getNations(arrayList)
+        ArrayList arrayNation = getNations(arrayList)
         nations = new HashMap<String, Integer>()
         for (int s = 0; s < arrayNation.size(); s++) {
             count4 = 0;
@@ -32,13 +32,13 @@ class Nation {
         nationPlus
     }
 
-    public ArrayList getNations(ArrayList arrayList){
+    public ArrayList getNations(ArrayList arrayList) {
 
-        ArrayList arrayNation= new ArrayList()
+        ArrayList arrayNation = new ArrayList()
         for (int j = 0; j < arrayList.size(); j++) {
             if (!arrayNation.contains(arrayList.get(j)))
                 arrayNation.add(arrayList.get(j))
         }
-         arrayNation
+        arrayNation
     }
 }

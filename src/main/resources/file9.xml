@@ -1,4 +1,4 @@
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<teiCorpus>
     <teiCorpus>
         <TEI>
             <teiHeader>
@@ -70,7 +70,7 @@
                                     <authority>
                                         <orgName type="national">US</orgName>
                                     </authority>
-                                    <idno type="docNumber">234008993333</idno>
+                                    <idno type="docNumber">23400899</idno>
                                     <imprint>
                                         <classCode scheme="kindCode">A</classCode>
                                         <date>19990119</date>

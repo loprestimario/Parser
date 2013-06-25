@@ -4,7 +4,7 @@ import groovy.util.slurpersupport.GPathResult
 
 class Family {
 
-    public void extract(String body) {
+    public ArrayList extract(String body) {
         def teiCorpus = new XmlSlurper().parseText(body)
         def idFamily = teiCorpus.teiHeader.fileDesc.sourceDesc.bibl.idno
         def listTei = teiCorpus.teiCorpus
@@ -20,8 +20,16 @@ class Family {
         Nation n = new Nation()
         nationPlus = n.getNationPlus(arrayList)
 
-        Output summary = new Output()
-        summary.WriteSummary(n, arrayList, countClaims, countTei, idFamily, nationPlus, count)
+        Summary summary= new Summary()
+        summary.putNation(n)
+        summary.putArray(arrayList)
+        summary.putCountClaims(countClaims)
+        summary.putCountTei(countTei)
+        summary.putIdFamily(idFamily)
+        summary.putNationPlus(nationPlus)
+        summary.putCount(count)
+
+        return summary
     }
 
     private int countPriorityClaims(listTei, arrayList) {

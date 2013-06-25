@@ -1,10 +1,12 @@
 package groovy
 
+import groovy.util.slurpersupport.GPathResult
+
 class Claims {
 
-    public void extractClaims(String body) {
+    public Map extractClaims(String body) {
 
-        def teiCorpus = new XmlSlurper().parseText(body)
+        GPathResult teiCorpus = new XmlSlurper().parseText(body)
         def listClaims = teiCorpus.teiCorpus.TEI.teiHeader.fileDesc.sourceDesc.listBibl.biblStruct
         def count = 0
         def listTei = teiCorpus.teiCorpus.TEI
@@ -22,9 +24,8 @@ class Claims {
             }
             for (int i = 0; i < claimsArray.size(); i++) {
             }
-            (priorityClaims[application] = claimsArray)
+            priorityClaims[application] = claimsArray
         }
-        Output output = new Output()
-        output.writePriorityClaims(priorityClaims)
+        return priorityClaims
     }
 }
