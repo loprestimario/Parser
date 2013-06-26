@@ -22,8 +22,6 @@ class Claims {
                 claimsArray.add(claim)
                 count++
             }
-            for (int i = 0; i < claimsArray.size(); i++) {
-            }
             priorityClaims[application] = claimsArray
         }
         return priorityClaims

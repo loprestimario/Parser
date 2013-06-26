@@ -2,70 +2,89 @@ package groovy
 
 import groovy.util.slurpersupport.GPathResult
 
-class Family {
+public class Family {
+    HashMap<String, Integer> nationsMap = new HashMap<String, Integer>()
 
-    public ArrayList extract(String body) {
+
+    public Summary extract(String body) {
         def teiCorpus = new XmlSlurper().parseText(body)
         def idFamily = teiCorpus.teiHeader.fileDesc.sourceDesc.bibl.idno
         def listTei = teiCorpus.teiCorpus
-        def ArrayList arrayList = new ArrayList()
+        def arrayList = new ArrayList()
         def nationPlus
 
         // publication
-        def count = countPublication(listTei, arrayList)
+        def count = countPublication(listTei, nationsMap)
         // application
-        def countTei = countApplication(teiCorpus, arrayList)
+        def countTei = countApplication(teiCorpus, nationsMap)
         // claims
-        def countClaims = countPriorityClaims(listTei, arrayList)
+        def countClaims = countPriorityClaims(listTei, nationsMap)
         Nation n = new Nation()
-        nationPlus = n.getNationPlus(arrayList)
+        nationPlus = n.getNationPlus(nationsMap)
 
-        Summary summary= new Summary()
-        summary.putNation(n)
-        summary.putArray(arrayList)
+        Summary summary = new Summary()
+        summary.putNationsMap(nationsMap)
         summary.putCountClaims(countClaims)
         summary.putCountTei(countTei)
-        summary.putIdFamily(idFamily)
+        summary.putIdFamily((String)(idFamily))
         summary.putNationPlus(nationPlus)
         summary.putCount(count)
 
         return summary
     }
 
-    private int countPriorityClaims(listTei, arrayList) {
+
+    public int countPriorityClaims(listTei, HashMap nationsMap) {
+        def nat
         def countClaims = 0
         listTei.TEI.each { tei ->
             def listClaims = tei.teiHeader.fileDesc.sourceDesc.listBibl.biblStruct
             listClaims.each { claim ->
                 if (claim.@subtype == "docdb") {
                     countClaims++
-                    arrayList.add(claim.monogr.authority.orgName)
+                    nat = (String) (claim.monogr.authority.orgName)
+                    if (nationsMap.containsKey(nat)) {
+                        nationsMap[nat] = nationsMap.get(nat) + 1
+                    } else {
+                        nationsMap[nat] = 1
+                    }
                 }
             }
         }
         return countClaims++
     }
 
-    private int countApplication(GPathResult teiCorpus, arrayList) {
+    public int countApplication(GPathResult teiCorpus, nationsMap) {
         def countTei = 0
+        def nat
         def listP = teiCorpus.teiCorpus.teiHeader.fileDesc.sourceDesc.biblStruct
         listP.each { application ->
             if (application.@subtype == "docdb") {
                 countTei++
-                arrayList.add(application.monogr.authority.orgName)
+                nat = (String) (application.monogr.authority.orgName)
+                if (nationsMap.containsKey(nat))
+                    nationsMap[nat] = nationsMap.get(nat) + 1
+                else
+                    nationsMap[nat] = 1
             }
         }
         return countTei++
     }
 
-    private int countPublication(listTei, arrayList) {
+    public int countPublication(listTei, nationsMap) {
+
         def count = 0;
+        def nat
         listTei.TEI.each { tei ->
             def listP = tei.teiHeader.fileDesc.sourceDesc.biblStruct
             listP.each { publication ->
                 if (publication.@subtype == "docdb") {
                     count++
-                    arrayList.add(publication.monogr.authority.orgName)
+                    nat = (String) (publication.monogr.authority.orgName)
+                    if (nationsMap.containsKey(nat))
+                        nationsMap[nat] = nationsMap.get(nat) + 1
+                    else
+                        nationsMap[nat] = 1
                 }
             }
         }

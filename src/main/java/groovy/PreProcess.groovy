@@ -9,12 +9,9 @@ package groovy
  */
 class PreProcess {
 
-    public String read(String pathFile){
+    public String read(String pathFile) {
 
-        String body= new File(pathFile).text
-        def g= body.replaceAll('xmlns="http://www.tei-c.org/ns/1.0"','')
-        return g
-
+        String body = new File(pathFile).text
+        body.replaceAll('xmlns="http://www.tei-c.org/ns/1.0"', '')
     }
-
 }

@@ -16,11 +16,11 @@ class TestFamily {
         String body = new File("src/main/resources/file3.xml").text
         def teiCorpus = new XmlSlurper().parseText(body)
         Family family =new Family()
-        ArrayList arrayList= new ArrayList()
+        def nationsMap = new HashMap<String,Integer>()
 
         def listTei = teiCorpus.teiCorpus
-        def count = family.countPublication(listTei, arrayList)
-        def count1 = family.countApplication(listTei, arrayList)
+        def count = family.countPublication(listTei, nationsMap)
+        def count1 = family.countApplication(listTei, nationsMap)
 
         Assert.assertEquals(count, 2);
 
@@ -32,10 +32,10 @@ class TestFamily {
         String body = new File("src/main/resources/file3.xml").text
         def teiCorpus = new XmlSlurper().parseText(body)
         Family family =new Family()
-        ArrayList arrayList= new ArrayList()
+        def nationsMap = new HashMap<String,Integer>()
 
         def listTei = teiCorpus.teiCorpus
-        def count = family.countApplication(listTei, arrayList)
+        def count = family.countApplication(listTei, nationsMap)
 
         Assert.assertEquals(count, 0);
 
@@ -47,10 +47,10 @@ class TestFamily {
         String body = new File("src/main/resources/file3.xml").text
         def teiCorpus = new XmlSlurper().parseText(body)
         Family family =new Family()
-        ArrayList arrayList= new ArrayList()
+        def nationsMap = new HashMap<String,Integer>()
 
         def listTei = teiCorpus.teiCorpus
-        def count = family.countPriorityClaims(listTei, arrayList)
+        def count = family.countPriorityClaims(listTei,nationsMap)
 
         Assert.assertEquals(count, 4);
 

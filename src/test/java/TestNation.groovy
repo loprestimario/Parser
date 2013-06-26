@@ -19,15 +19,14 @@ class TestNation {
         String body = new File("src/main/resources/file3.xml").text
         def teiCorpus = new XmlSlurper().parseText(body)
         def listTei = teiCorpus.teiCorpus
-         ArrayList arrayList = new ArrayList()
-        def count = family.countPublication(listTei, arrayList)
-        def countTei = family.countApplication(teiCorpus, arrayList)
-        def countClaims = family.countPriorityClaims(listTei, arrayList)
+         def nationsMap = new HashMap<String,Integer>()
+        def count = family.countPublication(listTei, nationsMap)
+        def countTei = family.countApplication(teiCorpus, nationsMap)
+        def countClaims = family.countPriorityClaims(listTei, nationsMap)
         Nation n = new Nation()
-        def nationPlus = n.getNationPlus(arrayList)
-        println nationPlus
-
-
+        n.getNationPlus(nationsMap)
+        def nationPlus = n.getNationPlus(nationsMap)
+        //println nationPlus
 
         Assert.assertEquals(nationPlus,'US');
 

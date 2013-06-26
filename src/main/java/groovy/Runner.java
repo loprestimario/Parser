@@ -1,7 +1,6 @@
 package groovy;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,16 +13,15 @@ public class Runner {
 
     public static void main(String[] args) throws IOException {
 
-        Claims claims=  new Claims();
-        PreProcess preProcess= new PreProcess();
-        Family family= new Family();
+        Claims claims = new Claims();
+        PreProcess preProcess = new PreProcess();
+        Family family = new Family();
         Output output = new Output();
-       // ArrayList summary= new ArrayList();
 
-        String text= preProcess.read("src/main/resources/file.xml");
+        String text = preProcess.read("src/main/resources/file.xml");
         output.writePriorityClaims(claims.extractClaims(text));
-        Summary summary333= new Summary();
-        ArrayList summary= family.extract(text);
+        Summary summary = new Summary();
+        summary = family.extract(text);
         output.WriteSummary(summary);
     }
 

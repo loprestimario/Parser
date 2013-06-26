@@ -30,7 +30,7 @@ class TestClaims {
             def c = claim.get(name)
             priorityClaim = c.get(0).toString()
         }
-        println priorityClaim
+       // println priorityClaim
         Assert.assertEquals(priorityClaim,"US2340089911A19990119Y");
 
     }

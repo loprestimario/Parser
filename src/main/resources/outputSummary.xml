@@ -1,13 +1,13 @@
 <summary>
   <idfamily>22879498</idfamily>
-  <numberPatent>43</numberPatent>
+  <numberPatent>1</numberPatent>
   <Nations>
+    <nat>WO</nat>
+    <nat>EP</nat>
     <nat>JP</nat>
     <nat>US</nat>
-    <nat>CA</nat>
     <nat>AU</nat>
-    <nat>EP</nat>
-    <nat>WO</nat>
+    <nat>CA</nat>
   </Nations>
   <biggestPatentNation>US</biggestPatentNation>
   <numberApplication>7</numberApplication>

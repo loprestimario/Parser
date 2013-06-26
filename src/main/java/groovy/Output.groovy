@@ -4,9 +4,8 @@ import groovy.xml.XmlUtil
 
 class Output {
 
-    public void WriteSummary(ArrayList summary) {
-        Nation n = summary.getNation()
-        ArrayList arrayList = summary.getArray()
+    public void WriteSummary(Summary summary) {
+        HashMap nationsMap = summary.getNationsMap()
         def countClaims = summary.getCountClaims()
         def countTei = summary.getCountTei()
         def idFamily = summary.getIdFamily()
@@ -15,13 +14,13 @@ class Output {
         def fw = new FileWriter('src/main/resources/outputSummary.xml')
         def xml = new groovy.xml.MarkupBuilder(fw)
 
-        ArrayList arrayNation = n.getNations(arrayList)
         xml.summary() {
             idfamily(idFamily)
-            numberPatent(countClaims + countTei + count)
+            numberPatent(1)
             xml.Nations() {
-                for (int t = 0; t < arrayNation.size(); t++)
-                    nat(arrayNation.get(t))
+                for (nation in nationsMap.keySet()) {
+                    nat(nation)
+                }
             }
             biggestPatentNation(nationPlus)
             numberApplication(countTei)
