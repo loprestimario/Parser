@@ -1,4 +1,4 @@
-package groovy
+package patent
 
 import groovy.util.slurpersupport.GPathResult
 

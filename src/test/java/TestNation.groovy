@@ -1,5 +1,4 @@
-import groovy.Family
-import groovy.Nation
+import patent.*;
 import junit.framework.Assert
 import org.junit.Test
 /**

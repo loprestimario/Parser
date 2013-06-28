@@ -1,17 +1,11 @@
-package groovy;
+import patent.*;
+import process.Output;
+import process.PreProcess;
+import process.Summary;
 
-import java.io.IOException;
-
-/**
- * Created with IntelliJ IDEA.
- * User: mario
- * Date: 22/06/13
- * Time: 12.23
- * To change this template use File | Settings | File Templates.
- */
 public class Runner {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
 
         Claims claims = new Claims();
         PreProcess preProcess = new PreProcess();

@@ -1,12 +1,6 @@
-package groovy
+package process
 
-/**
- * Created with IntelliJ IDEA.
- * User: mario
- * Date: 23/06/13
- * Time: 14.27
- * To change this template use File | Settings | File Templates.
- */
+
 class PreProcess {
 
     public String read(String pathFile) {

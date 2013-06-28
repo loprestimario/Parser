@@ -1,8 +1,8 @@
-import groovy.Claims
+
 import groovy.util.slurpersupport.GPathResult
 import junit.framework.Assert
 import org.junit.Test
-
+import patent.*;
 /**
  * Created with IntelliJ IDEA.
  * User: mario

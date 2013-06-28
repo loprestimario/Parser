@@ -1,6 +1,7 @@
-package groovy
+package patent
 
 import groovy.util.slurpersupport.GPathResult
+import process.Summary
 
 public class Family {
     HashMap<String, Integer> nationsMap = new HashMap<String, Integer>()
